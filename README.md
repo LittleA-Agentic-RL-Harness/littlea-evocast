@@ -8,14 +8,14 @@
 
 Drop a paper, a report, a folder of docs or a few links. Get a sharp **3–8 minute, two‑host episode** in **English or Chinese**, written for *you* — then watch the harness that wrote it **improve itself**.
 
-[![CI](https://github.com/LittleA-Agentic-RL-Harness/evocast/actions/workflows/ci.yml/badge.svg)](https://github.com/LittleA-Agentic-RL-Harness/evocast/actions/workflows/ci.yml)
+[![CI](https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast/actions/workflows/ci.yml/badge.svg)](https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-6155f5)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/LittleA-Agentic-RL-Harness/evocast?color=bf5af2)](https://github.com/LittleA-Agentic-RL-Harness/evocast/releases)
+[![Release](https://img.shields.io/github/v/release/LittleA-Agentic-RL-Harness/littlea-evocast?color=bf5af2)](https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast/releases)
 [![Next.js](https://img.shields.io/badge/Next.js-16-000)](https://nextjs.org)
 [![ElevenLabs](https://img.shields.io/badge/voices-ElevenLabs%20v4-111)](https://elevenlabs.io)
 [![Claude](https://img.shields.io/badge/LLM-Claude%20Opus%205.5-d97757)](https://www.anthropic.com)
 
-[**Try it free — no keys**](https://evocast.vercel.app) · [**Download for Mac**](https://github.com/LittleA-Agentic-RL-Harness/evocast/releases/latest) · [Architecture](docs/ARCHITECTURE.md) · [Operations](docs/OPERATIONS.md) · [Research](docs/RESEARCH.md) · [简体中文](README.zh-CN.md)
+[**Try it free — no keys**](https://evocast.vercel.app) · [**Download for Mac**](https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast/releases/latest) · [Architecture](docs/ARCHITECTURE.md) · [Operations](docs/OPERATIONS.md) · [Research](docs/RESEARCH.md) · [简体中文](README.zh-CN.md)
 
 <br/>
 
@@ -118,17 +118,17 @@ Deep dive: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · design notes and rese
 
 **Deploy your own** — one click, no environment variables needed (everyone brings their own keys). Add Neon from the Vercel Marketplace to turn on analytics, the admin console and the free trial; [Operations](docs/OPERATIONS.md) covers costs and limits.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLittleA-Agentic-RL-Harness%2Fevocast&project-name=evocast&repository-name=evocast)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLittleA-Agentic-RL-Harness%2Flittlea-evocast&project-name=evocast&repository-name=evocast)
 
 **Run locally**
 
 ```bash
-git clone https://github.com/LittleA-Agentic-RL-Harness/evocast && cd evocast
+git clone https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast && cd littlea-evocast
 npm install
 npm run dev            # http://localhost:3000 — your keys, or the offline demo without them
 ```
 
-**Mac app** — download the `.dmg` from [Releases](https://github.com/LittleA-Agentic-RL-Harness/evocast/releases/latest) (Apple Silicon). It runs the whole app *and its API* locally. Unsigned build: open once, then *System Settings → Privacy & Security → Open Anyway*. Build it yourself with `npm --prefix desktop install && npm run desktop:build`.
+**Mac app** — download the `.dmg` from [Releases](https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast/releases/latest) (Apple Silicon). It runs the whole app *and its API* locally. Unsigned build: open once, then *System Settings → Privacy & Security → Open Anyway*. Build it yourself with `npm --prefix desktop install && npm run desktop:build`.
 
 **CLI**
 

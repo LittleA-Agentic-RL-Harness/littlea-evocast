@@ -14,7 +14,7 @@
 ## Reporting a vulnerability
 
 Please **do not open a public issue**. Report privately via
-[GitHub private vulnerability reporting](https://github.com/LittleA-Agentic-RL-Harness/evocast/security/advisories/new).
+[GitHub private vulnerability reporting](https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast/security/advisories/new).
 We aim to acknowledge within 3 business days.
 
 ## Supported versions

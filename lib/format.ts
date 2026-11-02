@@ -26,7 +26,7 @@ ${lines}
 
 ---
 Verification: ${e.results.length ? `${passed}/${e.results.length} tests passed` : "not graded (lite mode)"} · Harness ${e.harnessId} · LLM $${e.metrics.llmUsd.toFixed(3)} · TTS ${e.metrics.ttsChars} chars ≈ $${e.metrics.ttsUsd.toFixed(3)}
-Generated with Evocast (https://github.com/LittleA-Agentic-RL-Harness/evocast). Audio by ElevenLabs.
+Generated with Evocast (https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast). Audio by ElevenLabs.
 `;
 }
 

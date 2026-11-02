@@ -107,7 +107,7 @@ test("combine: one heading per source; over budget, long sources are trimmed and
 });
 
 test("links: documented plain-text forms for GitHub and Google Docs", () => {
-  assert.equal(rewrite(new URL("https://github.com/LittleA-Agentic-RL-Harness/evocast")).url, "https://raw.githubusercontent.com/LittleA-Agentic-RL-Harness/evocast/HEAD/README.md");
+  assert.equal(rewrite(new URL("https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast")).url, "https://raw.githubusercontent.com/LittleA-Agentic-RL-Harness/littlea-evocast/HEAD/README.md");
   assert.equal(rewrite(new URL("https://github.com/o/r/blob/main/docs/x.md")).url, "https://raw.githubusercontent.com/o/r/main/docs/x.md");
   assert.equal(rewrite(new URL("https://docs.google.com/document/d/abc123/edit?usp=sharing")).url, "https://docs.google.com/document/d/abc123/export?format=md");
   assert.equal(rewrite(new URL("https://example.com/a?b=1")).url, "https://example.com/a?b=1");

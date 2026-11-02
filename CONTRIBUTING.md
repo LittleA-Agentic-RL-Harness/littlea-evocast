@@ -41,6 +41,6 @@ Append `?still` to any URL to skip the remaining fades and turn analytics off (h
 
 ## Good first contributions
 
-Look for issues labelled [`good first issue`](https://github.com/LittleA-Agentic-RL-Harness/evocast/labels/good%20first%20issue) — e.g. a new TTS provider, a new listener persona, a new language, or a new evaluation rule.
+Look for issues labelled [`good first issue`](https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast/labels/good%20first%20issue) — e.g. a new TTS provider, a new listener persona, a new language, or a new evaluation rule.
 
 By contributing you agree that your contributions are licensed under the Apache-2.0 license and that you will follow our [Code of Conduct](CODE_OF_CONDUCT.md).

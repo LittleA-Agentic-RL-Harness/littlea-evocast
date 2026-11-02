@@ -42,7 +42,7 @@ test("funnel, sources, imports and clicks from raw events", async () => {
   // A: HN → demo → import → create → episode → play → 75%.
   await insertEvents(db, toRows(batch("visitor-a", [start({ ref: "https://news.ycombinator.com/item?id=1", ref_host: "news.ycombinator.com" }), ["demo_start"], ["import_ok", { via: "link", kind: "url", items: 1, chars: 40000, types: ["pdf"], urls: ["https://arxiv.org/abs/2610.26770"] }], ["generate_start", { persona: "engineer", mode: "medium" }], ["generate_ok", { episodes: 2, seconds: 600, ms: 90000 }], ["play"], ["listen", { pct: 25 }], ["listen", { pct: 75 }], ["click", { id: "create", label: "生成" }]]), now, ctx));
   // B: GitHub → keys → import fails (Claude link) → leaves.
-  await insertEvents(db, toRows(batch("visitor-b", [start({ ref_host: "github.com", ref: "https://github.com/LittleA-Agentic-RL-Harness/evocast" }), ["keys_saved", { llm: "anthropic" }], ["import_fail", { via: "link", code: "app_rendered", app: "Claude" }], ["click", { id: "create", label: "Create" }]]), now, { ...ctx, country: "US", city: null }));
+  await insertEvents(db, toRows(batch("visitor-b", [start({ ref_host: "github.com", ref: "https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast" }), ["keys_saved", { llm: "anthropic" }], ["import_fail", { via: "link", code: "app_rendered", app: "Claude" }], ["click", { id: "create", label: "Create" }]]), now, { ...ctx, country: "US", city: null }));
   // C: direct, bounces. Plus a hostile non-numeric pct that must not break the numeric casts.
   await insertEvents(db, toRows(batch("visitor-c", [start({}), ["listen", { pct: "lots" }]]), now, ctx));
   // An old event outside every range.
