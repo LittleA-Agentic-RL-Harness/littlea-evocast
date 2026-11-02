@@ -4,7 +4,7 @@ import { LLMError } from "../llm";
 import { extractFile, htmlToText, markdownToText, tidy, type SourceDoc } from "./extract";
 
 const MAX_BYTES = 40 * 1024 * 1024;
-const UA = "Evocast/0.3 (+https://github.com/LittleA-Agentic-RL-Harness/evocast)";
+const UA = "Evocast/0.3 (+https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast)";
 
 /** A link we can't read server-side, with a code the client turns into localized guidance. */
 export class IngestError extends LLMError {

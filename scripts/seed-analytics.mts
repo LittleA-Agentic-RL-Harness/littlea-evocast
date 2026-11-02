@@ -17,7 +17,7 @@ const pick = <T,>(xs: [T, number][]): T => {
 };
 const SOURCES: [{ ref: string; host: string; utm?: string; campaign?: string }, number][] = [
   [{ ref: "", host: "" }, 30],
-  [{ ref: "https://github.com/LittleA-Agentic-RL-Harness/evocast", host: "github.com" }, 22],
+  [{ ref: "https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast", host: "github.com" }, 22],
   [{ ref: "https://news.ycombinator.com/item?id=45812345", host: "news.ycombinator.com" }, 18],
   [{ ref: "https://x.com/littlea_ai/status/1983", host: "x.com" }, 9],
   [{ ref: "https://www.v2ex.com/t/1170001", host: "v2ex.com" }, 7],
@@ -27,7 +27,7 @@ const SOURCES: [{ ref: string; host: string; utm?: string; campaign?: string }, 
 ];
 const PLACES: [[string, string], number][] = [[["CN", "Shanghai"], 20], [["CN", "Beijing"], 12], [["CN", "Shenzhen"], 8], [["US", "San Francisco"], 14], [["US", "New York"], 8], [["JP", "Tokyo"], 6], [["SG", "Singapore"], 5], [["DE", "Berlin"], 4], [["GB", "London"], 4], [["TH", "Bangkok"], 3]];
 const DEVICES: [[string, string, string], number][] = [[["Desktop", "Chrome", "macOS"], 40], [["Desktop", "Safari", "macOS"], 18], [["Desktop", "Chrome", "Windows"], 14], [["Mobile", "Safari", "iOS"], 16], [["Mobile", "WeChat", "iOS"], 6], [["Mobile", "Chrome", "Android"], 6]];
-const URLS: [string, number][] = [["https://arxiv.org/abs/2610.26770", 10], ["https://arxiv.org/abs/2609.01234", 4], ["https://github.com/LittleA-Agentic-RL-Harness/evocast", 3], ["https://mp.weixin.qq.com/s/AbCdEf", 3], ["https://www.anthropic.com/research/agentic-misalignment", 2], ["https://docs.google.com/document/d/1x2y3z/edit", 2]];
+const URLS: [string, number][] = [["https://arxiv.org/abs/2610.26770", 10], ["https://arxiv.org/abs/2609.01234", 4], ["https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast", 3], ["https://mp.weixin.qq.com/s/AbCdEf", 3], ["https://www.anthropic.com/research/agentic-misalignment", 2], ["https://docs.google.com/document/d/1x2y3z/edit", 2]];
 const TYPES: [string[], number][] = [[["pdf"], 50], [["markdown"], 12], [["html"], 10], [["docx"], 8], [["pdf", "markdown"], 6], [["pptx"], 4], [["epub"], 2]];
 
 const rows: EventRow[] = [];

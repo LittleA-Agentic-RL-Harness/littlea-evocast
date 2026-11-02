@@ -42,13 +42,13 @@
   },
   "license": "Apache-2.0",
   "author": "LittleA (https://github.com/LittleA-Agentic-RL-Harness)",
-  "homepage": "https://github.com/LittleA-Agentic-RL-Harness/evocast",
+  "homepage": "https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LittleA-Agentic-RL-Harness/evocast.git"
+    "url": "git+https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast.git"
   },
   "bugs": {
-    "url": "https://github.com/LittleA-Agentic-RL-Harness/evocast/issues"
+    "url": "https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast/issues"
   },
   "keywords": [
     "podcast",

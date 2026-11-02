@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- **The repository is now [LittleA-Agentic-RL-Harness/littlea-evocast](https://github.com/LittleA-Agentic-RL-Harness/littlea-evocast).** GitHub redirects the old address, including `git clone` and `git pull`; links in the app, the docs and the package metadata point to the new name.
+
 ## 0.5.0 — 2026-10-31
 
 - **Every screen, every size, every engine**: a new browser check walks every screen (welcome, keys, Create, the language menu, generating, the player during the cold open, typing a question, the answer, the finished episode, Listen, You, Settings) on desktop Chrome, desktop Safari, an Android phone and an iPhone, from a 320 px phone and a phone on its side to a 13-inch MacBook window, iPads and a 2560 px display, in Chinese and English. It fails on a page that scrolls sideways, a control off screen or under another one, text cut without an ellipsis, a player that doesn't fit, touch targets too small for a finger, or a field Safari would zoom into. All 72 combinations pass. CI runs a quick set on every pull request, Firefox included; `AUDIT=1 npm run e2e` runs the full sweep.
